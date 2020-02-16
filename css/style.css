@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', 'sans-serif' ;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.row{
+    max-width: 100%;
+    margin 0 auto;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+/*======================================HEADER==================================================================*/
+
+.header-main{
+    background-color: #0984e3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    /*width: 90%*/
+}
+
+.header-name {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 4%;
+    margin-right: 3%;
+    padding-left: 3%;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.header-name:hover,
+.hearder-name:active{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list{
+    float: right;
+    list-style: none;   
+    margin-top: 55px;
+    margin-left: 9%;
+    
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.nav-list li a:link, 
+.nav-list li a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-list li a:hover, 
+.nav-list li a:active {
+    border-bottom: 2px solid white;
+    
+}
+
+.header-about-me {
+    position: absolute;
+    width: 70%;
+    top: 60%;
+    left: 40%;   
+    transform: translate(-30%, -50%);
+}
+
+h3{
+    margin: 0;
+    font-size: 250%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+
+.col-md-6 h3{
+    padding-top: 2%;
+}
+
+h4{
+    margin: 0;
+    font-size: 100%;
+    color: white;
+    font-weight: 50;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.bot-row{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+/*================================================================SKILLS====================================================================*/
+
+.feature-clean{
+    margin-bottom: 10%;
+    
+}
+.skills-header{
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.intro{
+    margin-top: 30px;
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 5%;
+}
+.logo-size{
+    font-size: 500%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+
+/*=============================================================EDUCATION=====================================================================*/
+
+.education{
+    margin-bottom: 10%;
+}
+
+.education-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #80b3ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.uni-name{
+    margin-top: 10%;
+    text-align: left;
+    font-size: 120%;
+    color: dimgray;
+    
+}
+
+.uni-name p{
+    padding-top: 5%;
+    font-size: 80%;
+}
+
+
+/*=============================================================PROJECTS=====================================================================*/
+
+.project{
+    margin-bottom: 10%;
+}
+
+.project-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #80b3ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.proj-name{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.title{
+    margin-top: 5%;
+    font-size: 120%;
+    color: #4a4a4a;
+}
+.mnth-year{
+    font-size: 90%;
+    
+}
+
+.proj-description{
+    color: #646464;
+}
+
+/*=============================================================PUBLICATION=====================================================================*/
+
+.publication{
+    margin-bottom: 10%;
+}
+
+.publication-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #80b3ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.pub-title{
+    margin-top: 3%;
+    color: dimgray;
+}
+.row pre{
+    color: darkgray;
+}
+
+
+.ul-list{
+    margin-left: 5%;
+    color: dimgray;
+    text-decoration-color: darkgray;
+}
+
+.ul-list:hover,
+.ul-list:active{
+    text-decoration: none;
+}
+
+/*=============================================================FOOTER=====================================================================*/
+
+.social{
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+}
+.social:hover,
+.social:active{
+    text-decoration: none;
+}
+.git{
+    color: black;
+}
+
+.social p{
+    font-size: 50%;
+}
