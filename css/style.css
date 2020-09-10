@@ -28,12 +28,17 @@ h2{
 /*======================================HEADER==================================================================*/
 
 .header-main{
-    background-color: #0984e3;
+   /* background-color: #0984e3;*/
     background-position: center;
     background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*padding-bottom: 80px;*/
+    background-image: url('bg.jpg');
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    padding-bottom: 80px;
     /*width: 90%*/
+    height: 100%;
+    
 }
 
 .header-name {
@@ -51,7 +56,7 @@ h2{
 }
 .header-name:hover,
 .hearder-name:active{
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
@@ -72,7 +77,7 @@ h2{
 .nav-list li a:link, 
 .nav-list li a:visited {
     padding: 8px 0;
-    color: white;
+    color:#ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%px;
@@ -82,10 +87,12 @@ h2{
 
 .nav-list li a:hover, 
 .nav-list li a:active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid red;
     
 }
-
+.top-row{
+    padding-top: 15px;
+}
 .header-about-me {
     position: absolute;
     width: 70%;
@@ -96,12 +103,12 @@ h2{
 
 h3{
     margin: 0;
-    font-size: 250%;
-    color: white;
-    font-weight: 300;
+    font-size: 330%;
+    color: #ffffff;
+    font-weight: 310;
     letter-spacing: 1px;
-    word-spacing: 4px;
-    
+    word-spacing: 3px;
+    padding-top: 20%;
 }
 
 .col-md-6 h3{
@@ -110,18 +117,23 @@ h3{
 
 h4{
     margin: 0;
-    font-size: 100%;
-    color: white;
-    font-weight: 50;
+    font-size: 150%;
+    color: #ffffff;
+    font-weight: 200;
     letter-spacing: 1px;
     word-spacing: 2px;
     text-align: center;
+    padding-top: 35%;
+    padding-left: 10%;
 }
 
-.bot-row{
-    margin-top: 20%;
-    margin-bottom: 20%;
+/*.bot-row{
+
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+*/
 
 /*================================================================SKILLS====================================================================*/
 
@@ -156,11 +168,14 @@ h4{
 
 .education{
     margin-bottom: 10%;
+    
 }
 
 .education-header{
+    
     color: black;
     text-align: center;
+    padding-top: 5%;
     margin-bottom: 5px;
     font-weight: 500;
 }
@@ -175,7 +190,7 @@ h2:after {
 }
 
 .uni-name{
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: left;
     font-size: 120%;
     color: dimgray;
@@ -192,6 +207,9 @@ h2:after {
 
 .project{
     margin-bottom: 10%;
+    background-color: #f2f2f2;
+    padding-top: 5% ;
+    padding-bottom: 3%;
 }
 
 .project-header{
@@ -231,8 +249,11 @@ h2:after {
 
 /*=============================================================PUBLICATION=====================================================================*/
 
-.publication{
+.Extra-Curricular{
     margin-bottom: 10%;
+    background-color: #f2f2f2;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .publication-header{
